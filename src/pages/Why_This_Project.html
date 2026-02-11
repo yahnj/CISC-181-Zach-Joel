@@ -2,9 +2,114 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Why This Project</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Your Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Cat Project</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="why.html">Why This Project</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HEADER -->
+<header class="text-center py-5">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Why This Project?</h1>
+        <p class="lead">Understanding the purpose behind building this website</p>
+    </div>
+</header>
+
+<!-- MAIN CONTENT -->
+<main class="container my-5">
+
+    <!-- Section 1 -->
+    <section class="mb-5">
+        <h2 class="mb-3">Purpose of the Website</h2>
+        <p>
+            This project was created to practice building a responsive website using HTML,
+            CSS, and Bootstrap. The goal is to understand how modern websites are structured
+            and styled while using a framework to speed up development.
+        </p>
+    </section>
+
+    <!-- Bootstrap Grid Cards -->
+    <section>
+        <h2 class="mb-4 text-center">What I Learned</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">HTML Structure</h5>
+                        <p class="card-text">
+                            Learned how to properly structure a webpage using semantic
+                            elements like header, main, section, and footer.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Bootstrap Integration</h5>
+                        <p class="card-text">
+                            Used Bootstrap's grid system, navbar, cards, and utility classes
+                            to create a clean, responsive layout.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Custom Styling</h5>
+                        <p class="card-text">
+                            Applied custom CSS to match the playful theme with Comic Sans
+                            and a cat-themed header background.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2026 Cat Project | Built with HTML & Bootstrap</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
