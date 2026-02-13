@@ -6,7 +6,7 @@ header {
     background-image: url("../images/catBg.webp");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     color: lightskyblue;
 
 
@@ -14,4 +14,15 @@ header {
 
 footer {
     font-size: 0.9rem;
+}
+.cat-img {
+    background-image: url("../images/Cat_November_2010-1a.jpg");
+}
+
+
+.image-box {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
 }
