@@ -1,0 +1,27 @@
+body {
+    font-family: "Arial", sans-serif;
+}
+
+header {
+    background-image: url("../images/night_sky.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    color: lawngreen;
+
+
+}
+
+footer {
+    font-size: 0.9rem;
+}
+
+
+
+.image-box {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
