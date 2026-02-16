@@ -1,13 +1,14 @@
 body {
-    font-family: "Comic Sans MS", sans-serif;
+    font-family: "Arial", sans-serif;
 }
 
 header {
-    background-image: url("../images/catBg.webp");
+    background-image: url("../images/night_sky.png");
+
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
-    color: lightskyblue;
+    color: lawngreen;
 
 
 }
@@ -15,9 +16,7 @@ header {
 footer {
     font-size: 0.9rem;
 }
-.cat-img {
-    background-image: url("../images/Cat_November_2010-1a.jpg");
-}
+
 
 
 .image-box {
